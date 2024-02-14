@@ -136,4 +136,5 @@ def url(message):
         print(f"{e}")
 
 print("Bot Is Alive")
+keep_alive()
 bot.infinity_polling()
