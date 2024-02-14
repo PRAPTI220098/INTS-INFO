@@ -7,6 +7,7 @@ try:
 	from telebot import types
 	import flask
 	from user_agent import generate_user_agent
+	from hh import keep_alive
 except:
 	os.system("pip install requests")
 	os.system("pip install telebot")
